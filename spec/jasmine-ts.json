@@ -1,0 +1,11 @@
+{
+  "_DESCRIPTION-01_": "This file is used by Jasmine-Test-Explorer VSCode extension",
+  "_DESCRIPTION-02_": "It allows running & debugging unit-tests in TypeScript",
+  "_DESCRIPTION-03_": "To pick which file to use, see <project-root>/.vscode/settings.json",
+  "spec_dir": "./spec",
+  "spec_files": ["**/*.spec.ts"],
+  "random": false,
+  "seed": null,
+  "stopSpecOnExpectationFailure": false,
+  "nodeArgv": ["-r", "ts-node/register/files"]
+}

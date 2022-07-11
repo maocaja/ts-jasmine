@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts"
+  ],
+  "compilerOptions": {
+    /* Please order keys alphabetically*/
+    "alwaysStrict": true,                  /* Parse in strict mode and emit "use strict" for each source file. */
+    "declaration": true,
+    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    "module": "commonjs",
+    "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "noImplicitAny": false,                 /* Raise error on expressions and declarations with an implied `any` type. */
+    "noUnusedLocals": true,                /* Report errors on unused locals. */
+    "noUnusedParameters": true,            /* Report errors on unused parameters. */
+    "outDir": "dist",
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,                        /* Enable all strict type-checking options. */
+    "strictNullChecks": true,              /* `null` and `undefined` values are not in the domain of every type and are only assignable to themselves and `any` (the one exception being that undefined is also assignable to `void`). */
+    "target": "es2017",
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "spec/**/*.spec.ts"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "reporter": [
+    "cobertura",
+    "html",
+    "text",
+    "text-summary"
+  ],
+  "report-dir": "./coverage",
+  "all": true,
+  "check-coverage": false,
+  "lines": 80,
+  "statements": 80,
+  "functions": 80,
+  "branches": 80
+}
